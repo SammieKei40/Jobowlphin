@@ -4,7 +4,7 @@ $cleardb_url = parse_url(getenv("mysql://baefa84ead3c8f:f15bb469@us-cdbr-east-05
 $cleardb_server = $cleardb_url["us-cdbr-east-05.cleardb.net"];
 $cleardb_username = $cleardb_url["baefa84ead3c8f"];
 $cleardb_password = $cleardb_url["f15bb469"];
-$cleardb_db = substr($cleardb_url["owlphin"],1);
+$cleardb_db = substr($cleardb_url["localhost"],1);
 $active_group = 'default';
 $query_builder = TRUE;
 // Connect to DB
